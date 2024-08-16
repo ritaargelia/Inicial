@@ -1,0 +1,60 @@
+/* Selector universal */
+*{
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* selector de etiqueta*/
+body{
+    background-color: #987D9A;
+    font-family: "Roboto", sans-serif;;
+}
+
+P{
+    color: #EECEB9;
+}
+/* Selector de clase*/
+.parrafo1{
+    color: rgb(0, 0, 7);
+}
+/* Selector de id*/
+
+.mujersombrero{
+    width: 300px;
+    border-radius: 20%;
+}
+.mujerrelajada{
+    width: 200px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    background-color: #BB9AB1;
+    margin: 5px;
+    overflow: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.moda{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrcPTEA32zERLGWRHNMJBtYabUBm2Dgv1dxw8sEETSzpLtMM0R8xE3RiJN_lWmZfMwMHE&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
